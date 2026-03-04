@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashi Kiran | Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome To My Portfolio</h1>
+
+        <a href="#about"><button class="button">About</button></a>
+        <a href="#skills"><button class="button">Skills</button></a>
+        <a href="#projects"><button class="button">Projects</button></a>
+        <a href="#contact"><button class="button">Contact</button></a>
+    </header>
+
+
+    <main>
+
+        <!-- ABOUT SECTION -->
+
+        <section id="about">
+
+            <div>
+
+                <h1>Shashi Kiran Gunda</h1>
+
+                <p class="tagline">
+                    Aspiring Machine Learning Engineer | Python • DSA • SQL • AI/ML Enthusiast
+                </p>
+
+                <img src="shashi-kiran.jpg" alt="Photo of Shashi Kiran Gunda">
+
+                <p>
+                    I am a 2nd-year B.Tech student specializing in Artificial Intelligence and Machine Learning
+                    at <em>Anurag University</em>, Hyderabad. I am passionate about solving real-world problems
+                    using data, algorithms, and intelligent systems.
+                </p>
+
+                <p>
+                    My current focus is on building strong foundations in Python, Data Structures & Algorithms,
+                    SQL, and Machine Learning concepts while continuously improving my problem-solving skills.
+                </p>
+
+                <p>
+                    I also enjoy creating projects and learning new technologies that help me grow
+                    as an aspiring Machine Learning Engineer.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS SECTION -->
+
+        <section id="skills">
+
+            <div>
+
+                <h1>My Skills</h1>
+
+                <ol>
+                    <li>Python Intermediate</li>
+                    <li>HTML Intermediate</li>
+                    <li>CSS Basics</li>
+                    <li>Java Intermediate</li>
+                    <li>SQL Intermediate</li>
+                </ol>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS SECTION -->
+
+        <section id="projects">
+
+            <div>
+
+                <h1>My Projects</h1>
+
+                <table>
+
+                    <tr>
+                        <th>Project</th>
+                        <th>Description</th>
+                    </tr>
+
+                    <tr>
+                        <td>Smart Attendance System</td>
+                        <td>
+                            Face recognition attendance system built with Python, OpenCV,
+                            and deep learning for automated real-time attendance tracking.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>AI-Based Smart Waste Sorting System</td>
+                        <td>
+                            AI-powered waste sorting system using image recognition to
+                            automatically classify waste materials.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Portfolio Website</td>
+                        <td>
+                            Personal portfolio website built using HTML and CSS to
+                            showcase projects, skills, and contact information.
+                        </td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+
+        <section id="contact">
+
+            <div>
+
+                <h1>Contact Me</h1>
+                <p>Feel free to get in touch with me using the form below.</p>
+
+                <p><b>Or contact me directly:</b></p>
+
+                <p>
+                    📞 <a href="tel:+919381840531">Call Me</a>
+                </p>
+
+                <p>
+                    💬 <a href="https://wa.me/919381840531" target="_blank">Chat on WhatsApp</a>
+                </p>
+
+                <p>
+                    ✉️ <a href="mailto:gundashashikiran2006@gmail.com">Send Email</a>
+                </p>
+
+
+                <!-- CONTACT FORM -->
+
+                <form action="https://formspree.io/f/mbdanpyv" method="POST">
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name: " required>
+
+                    <br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your Email: " required>
+
+                    <br>
+
+                    <label for="phone">Mobile No:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your Mobile Number: ">
+
+                    <br><br>
+
+                    <b>Choose your gender</b>
+
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+
+                    <br>
+
+                    <b>Select your interests:</b>
+
+                    <input type="checkbox" id="coding" name="interest_coding" value="coding">
+                    <label for="coding">Coding</label>
+
+                    <input type="checkbox" id="reading" name="interest_reading" value="reading">
+                    <label for="reading">Reading</label>
+
+                    <input type="checkbox" id="gaming" name="interest_gaming" value="gaming">
+                    <label for="gaming">Gaming</label>
+
+                    <br><br>
+
+                    <label for="bio">Bio (upto 200 characters):</label>
+                    <br>
+
+                    <textarea id="bio" name="bio" placeholder="Enter bio" maxlength="200"></textarea>
+
+                    <br><br>
+
+                    <button type="submit" class="submit">Submit</button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- SCROLL TO TOP BUTTON -->
+
+    <button class="fixedButton" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+        TOP
+    </button>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>© 2026 My Portfolio</p>
+
+        <div class="social">
+
+            <a href="https://instagram.com/mrunique.30" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/gundashashikiran/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="https://github.com/Shashikiran30" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
